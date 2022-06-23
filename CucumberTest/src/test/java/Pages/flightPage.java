@@ -12,7 +12,7 @@ public class flightPage extends basePage {
     public By donusilSecimi = By.cssSelector("#destination>.results>ul>li");
     public By calendarDate = By.xpath("//div[@class='calendar-left']//button[@class='week in']");
     public By calendarDateReturn = By.xpath("//div[@class='calendar-right']//button[@class='week in']");
-    public By ucakBiletiBulBtn = By.xpath("//button[@id='search-button']");
+    public By ucakBiletiBulBtn = By.id("search-button");
 
 
 
