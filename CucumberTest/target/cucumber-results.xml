@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.234723">
+<testcase classname="Taslak Deneme2" name="deneme2" time="8.234723">
+<system-out><![CDATA[Given "Trendyol" ana sayfası açılır.........................................passed
+When "ssd" kelimesi aratılır................................................passed
+When Herhangi bir ürün seçilir..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

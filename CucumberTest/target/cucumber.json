@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "deneme2",
+        "description": "",
+        "id": "taslak-deneme2;deneme2",
+        "after": [
+          {
+            "result": {
+              "duration": 2625693500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginsteps.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3432476200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"Trendyol\" ana sayfası açılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Trendyol",
+                  "offset": 1
+                }
+              ],
+              "location": "HomePageSteps.ana_sayfası_açılır(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1862819600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"ssd\" kelimesi aratılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ssd",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchBarSteps.kelimesi_aratılır(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 313733800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Herhangi bir ürün seçilir",
+            "match": {
+              "location": "ProductPageSteps.herhangi_bir_ürün_seçilir()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Taslak Deneme2",
+    "description": "",
+    "id": "taslak-deneme2",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/features2.feature"
+  }
+]

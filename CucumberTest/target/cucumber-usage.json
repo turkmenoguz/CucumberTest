@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^Herhangi bir ürün seçilir$",
+    "steps": [
+      {
+        "name": "Herhangi bir ürün seçilir",
+        "aggregatedDurations": {
+          "average": 0.3137338,
+          "median": 0.3137338
+        },
+        "durations": [
+          {
+            "duration": 0.3137338,
+            "location": "src/test/java/Features/features2.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" kelimesi aratılır$",
+    "steps": [
+      {
+        "name": "\"ssd\" kelimesi aratılır",
+        "aggregatedDurations": {
+          "average": 1.8628196,
+          "median": 1.8628196
+        },
+        "durations": [
+          {
+            "duration": 1.8628196,
+            "location": "src/test/java/Features/features2.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" ana sayfası açılır$",
+    "steps": [
+      {
+        "name": "\"Trendyol\" ana sayfası açılır",
+        "aggregatedDurations": {
+          "average": 3.4324762,
+          "median": 3.4324762
+        },
+        "durations": [
+          {
+            "duration": 3.4324762,
+            "location": "src/test/java/Features/features2.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]
